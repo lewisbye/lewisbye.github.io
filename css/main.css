@@ -222,7 +222,7 @@ h1, h2 {
 
 /*About page buttons */
 
-.logobutton {
+.twitter-button {
   height: 50px;
   line-height: 50px;
   color: white;
@@ -237,6 +237,44 @@ h1, h2 {
   width: 25%;
 }
 
-.logobutton:hover {
+.facebook-button {
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  background: #ff4e00;
+  padding: 0 15px 0 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px;
+  width: 25%;
+}
+
+.github-button {
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  background: #ff4e00;
+  padding: 0 15px 0 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 10px;
+  width: 25%;
+}
+
+.twitter-button:hover {
+  box-shadow: inset 0 0 0 500px rgba(255,255,255,0.1), 0 0 0 5px rgba(255,255,255,0.1);
+}
+
+.facebook-button:hover {
+  box-shadow: inset 0 0 0 500px rgba(255,255,255,0.1), 0 0 0 5px rgba(255,255,255,0.1);
+}
+
+.github-button:hover {
   box-shadow: inset 0 0 0 500px rgba(255,255,255,0.1), 0 0 0 5px rgba(255,255,255,0.1);
 }
