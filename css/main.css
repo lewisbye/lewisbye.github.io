@@ -10,7 +10,7 @@ body {
 #wrapper {
  max-width: 940px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 20%;
 }
 
 a {
@@ -223,48 +223,45 @@ h1, h2 {
 /*About page buttons */
 
 .twitter-button {
-  height: 50px;
-  line-height: 50px;
+  height: 45px;
+  line-height: 45px;
   color: white;
-  text-align: center;
   font-weight: 700;
   background: #33bdfd;
   padding: 0 15px 0 0;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 700;
   margin: 10px;
-  width: 25%;
+  width: 55%;
+  text-align:center;
 }
 
 .facebook-button {
-  height: 50px;
-  line-height: 50px;
+  height: 45px;
+  line-height: 45px;
   color: white;
-  text-align: center;
   font-weight: 700;
   background: #3b599b;
   padding: 0 15px 0 0;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 700;
   margin: 10px;
-  width: 25%;
+  width: 55%;
+  text-align:center;
 }
 
 .github-button {
-  height: 50px;
-  line-height: 50px;
+  height: 45px;
+  line-height: 45px;
   color: white;
-  text-align: center;
   font-weight: 700;
   background: #222222;
   padding: 0 15px 0 0;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 700;
   margin: 10px;
-  width: 25%;
+  width: 55%;
+  text-align:center;
 }
 
 .twitter-button:hover {
@@ -277,4 +274,36 @@ h1, h2 {
 
 .github-button:hover {
   box-shadow: inset 0 0 0 500px rgba(255,255,255,0.1), 0 0 0 5px rgba(255,255,255,0.1);
+}
+
+.twitter-button img {
+  display: inline-block;
+  opacity: .9;
+  max-width: 100%;
+}
+
+.facebook-button img {
+  display: inline-block;
+  opacity: .9;
+  max-width: 100%;
+}
+
+.github-button img {
+  display: inline-block;
+  opacity: .9;
+  max-width: 100%;
+}
+
+.icon {
+    float: left;
+    line-height: 45px;
+    width: 45px;
+    text-align: center;
+    background: rgba(0,0,0,0.05);
+    margin-right: 15px;
+}
+
+ #content {
+   text-align:center;
+   margin:auto;
 }
