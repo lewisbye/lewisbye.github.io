@@ -232,7 +232,7 @@ h1, h2 {
   display: inline-block;
   text-transform: uppercase;
   margin: 10px;
-  width: 55%;
+  width: calc(100% - 150px);
   text-align:center;
 }
 
@@ -246,8 +246,8 @@ h1, h2 {
   display: inline-block;
   text-transform: uppercase;
   margin: 10px;
-  width: 55%;
-  text-align:center;
+  width: calc(100% - 150px);
+  text-align: center;
 }
 
 .github-button {
@@ -260,8 +260,8 @@ h1, h2 {
   display: inline-block;
   text-transform: uppercase;
   margin: 10px;
-  width: 55%;
-  text-align:center;
+  width: calc(100% - 150px);
+  text-align: center;
 }
 
 .twitter-button:hover {
@@ -298,12 +298,12 @@ h1, h2 {
     float: left;
     line-height: 45px;
     width: 45px;
-    text-align: center;
     background: rgba(0,0,0,0.05);
-    margin-right: 15px;
 }
 
- #content {
+ .content {
    text-align:center;
    margin:auto;
+   display: block;
+
 }
