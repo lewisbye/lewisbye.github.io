@@ -185,37 +185,37 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff; 
+  background-color: #eeeeee;
   color: #999;
 }
 
-/* green header */
+/* coloured header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #f8f8f8;
+  border-color: #00b5bb;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #f8f8f8;
 }
 
 /* link color */
 a {
-  color: #6ab47b;
+  color: #00b5bb;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #009da2;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #00b5bb;
 }
 
 /* logo text */
 h1, h2 {
-  color: #fff;
+  color: #111111;
 }
