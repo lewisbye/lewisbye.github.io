@@ -66,7 +66,8 @@ h4 {
     float: left;
     line-height: 34px;
     top: 15px;
-    padding-left: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
 }
 
 .nav-list {
@@ -252,7 +253,7 @@ body {
 .footer-items-template {
   color: #868D9B;
   float: left;
-  text-align: center;
+  text-align: left;
   margin: auto;
   max-width: 1060px;
   font-size: 14px;
