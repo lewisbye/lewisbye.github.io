@@ -9,16 +9,30 @@
 h1 {
   color: #262D35;
   font-size: 77px;
+    padding: 0 0 0px 60px;
 }
 
 h2 {
   color: #868D9B;
   font-size: 40px;
+  margin: 0 0 0 0;
+  padding: 0 0 40px 60px;
 }
 
 h3 {
   color: #171A1F;
   font-size: 26;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+h4 {
+  color: #FFF;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 20px;
 }
 
 /* NAVGIATION BAR */
@@ -79,13 +93,14 @@ body {
 /* GALLERY */
 
 #intro-wrapper {
-  padding: 80px;
+  padding: 80px 0 0 0;
 }
 
-#wrapper {
+#top-gallery {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
+
 }
 
 #gallery {
@@ -113,4 +128,69 @@ body {
 
 #gallery h3 {
   padding-left: 20px;
+}
+
+/* CUSTOM DESIGNS SERVICES */
+
+#custom-services {
+  width: 100%;
+  float: left;
+  min-height: 690px;
+  background-color: #262D35;
+  margin-top: 40px;
+}
+
+#custom-services p {
+  color: #868D9B;
+  font-size: 20px;
+  text-align: center;
+}
+
+#services-gallery {
+  max-width: 100%;
+    padding: 0 5%;
+}
+
+#custom-gallery {
+  margin: 0;
+  padding: 0;
+}
+
+#custom-gallery li {
+  float: left;
+  margin: 1%;
+}
+
+#custom-gallery li a p {
+  padding-left: 20px;
+  font-size: 10px;
+  color: #868D9B;
+}
+
+#custom-gallery img {
+  max-width: 280px;
+  max-height: 270px;
+}
+
+.below {
+    max-width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.info-button {
+    float: left;
+    border: 0;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #35A8E0;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 50px;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    margin: 0 auto;
+
 }
