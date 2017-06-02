@@ -93,13 +93,13 @@ body {
 /* GALLERY */
 
 #intro-wrapper {
-  padding: 80px 0 0 0;
+  padding: 80px 100px 0 100px;
 }
 
 #top-gallery {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 100px;
 
 }
 
@@ -148,12 +148,12 @@ body {
 
 #services-gallery {
   max-width: 100%;
-    padding: 0 5%;
+  padding: 0 100px;
 }
 
 #custom-gallery {
   margin: 0;
-  padding: 0;
+  padding: 0 100px;
 }
 
 #custom-gallery li {
