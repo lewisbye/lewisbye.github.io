@@ -70,12 +70,11 @@ h4 {
 .nav img {
     display: inline-block;
     position: relative;
-    max-width: 162px;
-    max-height: 30px;
+    max-width: 172px;
+    max-height: 40px;
     float: left;
-    line-height: 34px;
-    top: 15px;
-    padding-left: 20px;
+    top: 10px;
+    padding-left: 35px;
     padding-right: 30px;
 }
 
@@ -244,25 +243,18 @@ body {
 
 /* FOOTER */
 
-#footer {
+footer {
   clear: both;
   position: relative;
   z-index: 10;
   height: 170px;
-  margin-top: 60px;
   background-color: #262D35;
+  max-width: 1190px;
+  display: block;
+  margin: 0 auto;
 }
 
-.footer-logo {
-  float: left;
 
-  padding: 55px 0 0 80px;
-}
-
-.footer-logo img {
-  max-width: 200px;
-  max-height: 350px;
-}
 
 .footer-header {
   color: #FFFFFF;
@@ -272,9 +264,6 @@ body {
 .footer-items-template {
   color: #868D9B;
   float: left;
-  text-align: left;
-  margin: auto;
-  max-width: 1060px;
   font-size: 13px;
   padding-left: 90px;
 }
@@ -286,6 +275,3 @@ body {
 .footer-items-template a:hover {
   color: #fff;
 }
-
-
-/* Dropdown Menu */
