@@ -356,35 +356,6 @@ footer {
   font-size: 27px;
 }
 
-.login-form {
-  padding: 25px;
-}
-
-.login-form input {
-  width: 520px;
-  height: 50px;
-  margin-top: 10px;
-  font-size: 13px;
-  width: 100%;
-  padding: 5px 0;
-  text-indent: 5px;
-}
-
-.login-form input::placeholder {
-  color: rgba(134, 141, 155, .5);
-  font-size: 13px;
-}
-
-.login-form label {
-  font-size: 13px;
-  color: #868D9B;
-  margin-bottom: 5px;
-}
-
-.email {
-  padding-top: 10px;
-}
-
 .password {
   padding-top: 20px;
 }
@@ -407,8 +378,9 @@ footer {
   background-color: #6d7481;
 }
 
-.login-button {
-  width: 90px;
+.blue-button {
+  max-width: 200px;
+  padding: 0 25px;
   cursor: pointer;
   height: 50px;
   color: #fff;
@@ -421,7 +393,7 @@ footer {
   overflow: auto;
 }
 
-.login-button:hover {
+.blue-button:hover {
   background-color: #39b7ec;
 }
 
@@ -500,19 +472,56 @@ footer {
   background-color: #fff;
 }
 
-.continue-button {
-  width: 90px;
+
+/* Forms */
+
+.form {
+  padding: 25px;
+}
+
+.form-profile {
+  padding: 25px;
+  margin-top: 100px;
+}
+
+.form input {
+  width: 520px;
+  height: 40px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  width: 100%;
+  padding: 5px 0;
+  text-indent: 5px;
+}
+
+.form input::placeholder {
+  color: rgba(134, 141, 155, .5);
+  font-size: 13px;
+}
+
+.form label {
+  font-size: 13px;
+  color: #868D9B;
+  margin-bottom: 5px;
+}
+
+
+/* Profile */
+
+.orderhistory-button {
+  max-width: 150px;
+  padding: 0 25px;
   cursor: pointer;
   height: 50px;
   color: #fff;
   background-color: #35A8E0;
   text-align: center;
   line-height: 50px;
-  float: left;
-  margin-top: 25px;
-  margin-left: 25px;
+  float: none;
+  margin: auto;
 }
 
-.continue-button:hover {
+.orderhistory-button:hover {
   background-color: #39b7ec;
 }
