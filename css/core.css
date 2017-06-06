@@ -300,8 +300,9 @@ footer {
 }
 
 .thank-you {
-  font-size: 40px;
+  font-size: 27px;
   padding-top: 30px;
+  margin-bottom: 20px;
 }
 
 .pp-redirect {
@@ -357,7 +358,7 @@ footer {
 .login-form input {
   width: 520px;
   height: 50px;
-  margin-top: 6px;
+  margin-top: 10px;
   font-size: 13px;
   padding-left: 10px;
 }
@@ -475,5 +476,31 @@ footer {
 
 .social-logins {
   padding-left: 30px;
-  padding-top: 15px;
+}
+
+/* Register */
+
+.register-container {
+  width: 580px;
+  height: 470px;
+  background-color: #fff;
+  margin: 140px auto 20px;
+}
+
+.continue-button {
+  width: 90px;
+  cursor: pointer;
+  height: 50px;
+  color: #fff;
+  background-color: #35A8E0;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 25px;
+
+}
+
+.continue-button:hover {
+  background-color: #39b7ec;
 }
