@@ -41,6 +41,7 @@ h3 {
   font-size: 26;
   margin-top: 6px;
   margin-bottom: 6px;
+  font-weight: bold;
 }
 
 h4 {
@@ -50,6 +51,24 @@ h4 {
   margin-bottom: 5px;
   margin-top: 1px;
   padding-top: 20px;
+}
+
+h5 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #20242B;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #868D9B;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -524,4 +543,60 @@ footer {
 
 .orderhistory-button:hover {
   background-color: #39b7ec;
+}
+
+/* Product Page */
+
+.product-info {
+  background-color: #FFFFFF;
+  float: right;
+  max-width: 580px;
+  max-height: 430px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  clear: right;
+}
+
+.product-info,
+.product-detail,
+p {
+  margin-left: 20px;
+}
+
+.product-detail {
+  background-color: #FFFFFF;
+  float: right;
+  max-width: 580px;
+  max-height: 430px;
+  margin: auto 0;
+  clear: right;
+}
+
+.buy-bttn {
+  max-width: 150px;
+  padding: 0 10px;
+  height: 50px;
+  color: #fff;
+  background-color: #2CAC2C;
+  text-align: center;
+  line-height: 50px;
+  float: none;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.youtube-bttn {
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #C4302B;
+  text-align: center;
+  line-height: 50px;
+  float: none;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+.productimg-main {
+  float: left;
 }
