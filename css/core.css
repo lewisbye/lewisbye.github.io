@@ -57,7 +57,7 @@ h5 {
   font-size: 60px;
   font-weight: bold;
   color: #20242B;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -66,7 +66,7 @@ h6 {
   font-size: 18px;
   font-weight: lighter;
   color: #868D9B;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -132,7 +132,7 @@ h6 {
 /* GALLERY */
 
 #wrapper {
-  padding: 50px 150px 0 150px;
+  padding: 50px 100px 0 150px;
 }
 
 #top-gallery {
@@ -545,6 +545,7 @@ footer {
   background-color: #39b7ec;
 }
 
+
 /* Product Page */
 
 .product-info {
@@ -552,14 +553,12 @@ footer {
   float: right;
   max-width: 580px;
   max-height: 430px;
-  margin-top: 100px;
   margin-bottom: 25px;
-  clear: right;
+  margin-top: 0px;
+  clear: both;
 }
 
-.product-info,
-.product-detail,
-p {
+.product-info, .product-detail, p {
   margin-left: 20px;
 }
 
@@ -569,7 +568,7 @@ p {
   max-width: 580px;
   max-height: 430px;
   margin: auto 0;
-  clear: right;
+  clear: both;
 }
 
 .buy-bttn {
@@ -585,6 +584,10 @@ p {
   margin-bottom: 25px;
 }
 
+.buy-bttn:hover {
+  background-color: #2fc92f;
+}
+
 .youtube-bttn {
   max-width: 200px;
   height: 50px;
@@ -597,6 +600,38 @@ p {
   margin-bottom: 25px;
 }
 
+.youtube-bttn:hover {
+  background-color: #da2620;
+}
+
 .productimg-main {
+  margin-top: 100px;
   float: left;
+  max-height: 500px;
+}
+
+.productimg-main img {
+  max-height: 500px;
+  margin-bottom: 10px;
+}
+
+.product-right {
+  float: right;
+  margin-top: 100px;
+}
+
+.product-secondary {
+  float: left;
+  display: inline;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.price {
+  color: #39B7EC;
+  font-size: 20px;
+  padding-right: 20px;
+  margin: auto;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
