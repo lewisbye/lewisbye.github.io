@@ -104,6 +104,11 @@ h4 {
   color: #fff;
 }
 
+#login-wrapper {
+  margin: 0 auto;
+  max-width: 580px;
+}
+
 
 /* GALLERY */
 
@@ -330,15 +335,15 @@ footer {
 /* Login */
 
 .login-container {
-  width: 580px;
-  height: 375px;
-  background-color: #fff;
+  max-width: 580px;
   margin: 140px auto 20px;
+  padding-bottom: 100px;
+  background-color: #fff;
 }
 
 .altlogin-container {
-  width: 580px;
-  height: 150px;
+  max-width: 580px;
+  max-height: 250px;
   background-color: #fff;
   margin: 20px auto 140px;
 }
@@ -352,7 +357,7 @@ footer {
 }
 
 .login-form {
-  padding-left: 25px;
+  padding: 25px;
 }
 
 .login-form input {
@@ -360,8 +365,12 @@ footer {
   height: 50px;
   margin-top: 10px;
   font-size: 13px;
-  padding-left: 10px;
+  width: 100%;
+  padding: 5px 0;
+  text-indent: 5px;
 }
+
+
 
 .login-form input::placeholder {
   color: rgba(134, 141, 155, .5);
@@ -393,6 +402,7 @@ footer {
   float: left;
   margin-top: 30px;
   margin-left: 25px;
+  overflow: auto;
 }
 
 .create-button:hover {
@@ -410,6 +420,7 @@ footer {
   float: right;
   margin-top: 30px;
   margin-right: 25px;
+    overflow: auto;
 }
 
 .login-button:hover {
@@ -472,19 +483,25 @@ footer {
   display: block;
   float: left;
   margin-left: 7px;
+  margin-bottom: 20px;
 }
 
 .social-logins {
   padding-left: 30px;
+  overflow: auto;
+  padding-bottom: 30px;
 }
+
 
 /* Register */
 
 .register-container {
-  width: 580px;
-  height: 470px;
-  background-color: #fff;
+  max-width: 580px;
   margin: 140px auto 20px;
+  padding-bottom: 100px;
+  background-color: #fff;
+
+
 }
 
 .continue-button {
@@ -498,7 +515,6 @@ footer {
   float: left;
   margin-top: 25px;
   margin-left: 25px;
-
 }
 
 .continue-button:hover {
