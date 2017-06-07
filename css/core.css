@@ -72,6 +72,7 @@ h6 {
 }
 
 
+
 /* NAVGIATION BAR */
 
 .header {
@@ -503,7 +504,9 @@ footer {
   margin-top: 100px;
 }
 
-.form input {
+.form [type=text],
+      [type=password],
+      [type=email] {
   width: 520px;
   height: 40px;
   margin-top: 3px;
@@ -571,7 +574,7 @@ footer {
   clear: both;
 }
 
-.buy-bttn {
+.green-bttn {
   max-width: 150px;
   padding: 0 10px;
   height: 50px;
@@ -584,7 +587,7 @@ footer {
   margin-bottom: 25px;
 }
 
-.buy-bttn:hover {
+.green-bttn:hover {
   background-color: #2fc92f;
 }
 
@@ -634,4 +637,52 @@ footer {
   margin: auto;
   padding-left: 20px;
   padding-bottom: 20px;
+}
+
+/* Delivery Details */
+
+.pay-bttn {
+  max-width: 175px;
+  padding: 0 10px;
+  height: 50px;
+  color: #fff;
+  background-color: #2CAC2C;
+  text-align: center;
+  line-height: 50px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.pay-bttn:hover {
+  background-color: #2fc92f;
+}
+
+.cart-bttn {
+  max-width: 180px;
+  padding: 0 10px;
+  height: 50px;
+  color: #fff;
+  background-color: #868D9B;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.cart-bttn:hover {
+  background-color: #A8B1C3;
+}
+
+.delivery-buttons {
+  margin-top: 50px;
+}
+
+form [type=checkbox] {
+  float: left;
+}
+
+.total-cost {
+  font-size: 20px;
+  float: right;
+  color: #35A8E0;
 }

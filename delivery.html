@@ -28,47 +28,60 @@
     </nav>
   </header>
 
-  <div id="wrapper">
+  <div id="login-wrapper">
+    <section>
+      <div class="login-container">
+        <h3 class="thank-you">Delivery Details</h3>
 
-    <div class="product-right">
-      <div class="product-info clearfix">
+        <form class="form">
 
-        <h5>Angel</h5>
-        <h6>SPONSORSHIP DECK TEMPLATE</h6>
-        <p class="price">$74.99</p>
+          <label>FULL NAME</label><br/>
+          <input type="text" placeholder="name" name="name" required>
 
-        <div class="green-bttn">
-          <a href="index.html"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+          <label>ADDRESS</label><br/>
+          <input type="text" placeholder="First line of address" name="address1" required>
+          <input type="text" placeholder="Second line of address" name="address2" required>
+
+          <label>CITY</label><br/>
+          <input type="text" placeholder="City" name="city" required>
+
+          <label>STATE / COUNTY</label><br/>
+          <input type="text" placeholder="State / County" name="state" required>
+
+          <label>POST CODE</label><br/>
+          <input type="text" placeholder="Post Code" name="postcode" required>
+
+          <label>COUNTRY</label><br/>
+          <input type="text" placeholder="Post Code" name="postcode" required>
+
+          <label>POSTAGE TYPE</label><br/>
+          <input type="text" placeholder="Post Code" name="postcode" required>
+
+          <input type="checkbox" name="terms" value="terms" id="terms"><label for="terms"> I accept Terms of Service</label>
+
+          <div class="total-cost">
+            <p>
+              Total: $134.96
+            </p>
+          </div>
+
+        <div class="delivery-buttons">
+          <div class="pay-bttn">
+            <a href="index.html">Confirm & Pay <i class="fa fa-chevron-right"></i></a>
+          </div>
+
+          <div class="cart-bttn">
+            <a href="cart.html"><i class="fa fa-chevron-left"></i> Shopping Cart</a>
+          </div>
         </div>
-        <p>Spawnpoint - A clean stylistic white header that will seamlessly fit in with the Spawnpoint website theme etc etc.</p>
+
       </div>
+      </form>
 
 
 
-      <div class="product-detail clearfix">
-
-        <h6>ABOUT THIS PRODUCT</h6>
-
-        <p>
-          Contains 1 PSD File: Sponsorship Deck SpawnpointSponsorshipdeck.psd Font(s): Geomanist geomanist.com Minimum Adobe Version Required: Adobe CS5 Video ‘How-To-Edit’ Tutorial:
-        </p>
-
-        <div class="youtube-bttn">
-          <a href="index.html"><i class="fa fa-youtube-play"></i> How-To-Edit Tutorial</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="productimg-main clearfix">
-      <img src="img/product1.png" />
-    </div>
-
-    <div class="product-secondary">
-      <img src="img/product2.png" />
-      <img src="img/product3.png" />
-      <img src="img/product4.png" />
-    </div>
-
+    </section>
+  </div>
   </div>
 
   <footer>
@@ -164,6 +177,6 @@
 
   </footer>
 
+</body>
 
-
-  </div>
+</html>
