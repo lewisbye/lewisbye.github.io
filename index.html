@@ -1,71 +1,115 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Lewis Bye | Web Developer</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <title>Esportsify</title>
+
+  <link rel="stylesheet" type="text/css" href="../fonts/fonts.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../fonts/fonts.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
-  <header>
-    <a href="index.html" id="logo">
-      <h1>Lewis Bye</h1>
-      <h2>Web Developer</h2>
-    </a>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="selected">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div id="wrapper">
-    <section>
-      <ul id="gallery">
-        <li>
-          <a href="img/numbers-01.jpg">
-              <img src="img/numbers-01.jpg" alt="">
-              <p>Experimentation with colour and texture.</p>
-            </a>
-        </li>
-        <li>
-          <a href="img/numbers-02.jpg">
-              <img src="img/numbers-02.jpg" alt="">
-              <p>Playing with blending modes in Photoshop.</p>
-            </a>
-        </li>
-        <li>
-          <a href="img/numbers-06.jpg">
-              <img src="img/numbers-06.jpg" alt="">
-              <p>Trying to create an 80's style of glows.</p>
-            </a>
-        </li>
-        <li>
-          <a href="img/numbers-09.jpg">
-              <img src="img/numbers-09.jpg" alt="">
-              <p>Drips created using Photoshop brushes.</p>
-            </a>
-        </li>
-        <li>
-          <a href="img/numbers-12.jpg">
-              <img src="img/numbers-12.jpg" alt="">
-              <p>Creating shapes using repetition.</p>
-            </a>
-        </li>
-      </ul>
-    </section>
-    <footer>
-      <a href="http://twitter.com/lewisbye1"><img src="img/twitter-wrap.png" atl="Twitter" class="social-icon"></a>
-      <a href="http://facebook.com/lewisbye"><img src="img/facebook-wrap.png" atl="Facebook" class="social-icon"></a>
-      <p>&copy; 2017 Lewis Bye.</p>
-    </footer>
-  </div>
-</body>
 
+  <div class="wrap">
+
+    <header class="main-header">
+      <div class="container">
+        <img class="logo" src="../img/logo.png" />
+
+        <ul class="secondary-nav">
+          <li><a href="sign.html" class="signin-bttn">SIGN IN</a></li>
+          <li><a href="register.html" class="register-bttn">REGISTER</a></li>
+        </ul>
+
+        <ul class="main-nav">
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">PRICING</a></li>
+          <li><a href="#">THE TEAM</a></li>
+          <li><a href="#">SUPPORT</a></li>
+        </ul>
+
+        <video playsinline autoplay muted loop id="bgvid">
+          <source src="../img/background.mp4" type="video/mp4">
+        </video>
+
+      </div>
+    </header>
+
+    <div class="intro-container">
+
+      <h1>Create your <strong>free</strong> professional esports website</h1>
+      <h2>Esportsify provides you with the tools to turn your team into a successful esports business</h2>
+
+      <h3>34,274 teams & professionals are already enjoying the features of Esportsify, <strong>join them now...</strong></h2>
+
+      <form>
+        <input type="text" placeholder="Your community name">
+      </form>
+
+      <a href="index.html" class="esprtfid-bttn">GET ESPORTSIFIED!</a>
+
+  </div>
+
+  <div class="team-container clearfix">
+
+  <ul class="the-team clearfix">
+    <li><img src="../img/gavin.jpg" alt="Gavin Weeks">
+        <h2>Gavin Weeks</h2>
+        <h3>CEO / Founder</h3>
+    </li>
+    <li>
+        <img src="../img/lewis.png" alt="Lewis Bye">
+        <h2>Lewis Bye</h2>
+        <h3>Director of operations</h3>
+    </li>
+    <li><img src="../img/aaditya.jpg" alt="Aaditya Singh">
+        <h2>Aaditya Singh</h2>
+        <h3>Senior Developer</h3>
+    </li>
+  </ul>
+
+
+  </div>
+
+<div class="about-container">
+    <h1>What is it?</h1>
+
+    <p>
+      Esportsify gives you the power to fully manage your esports presence professionally and easily. With our long list of esports related features and themes there is literally no excuse not to be able to function like a professional esports organisation. Create your squads, manage your results & keep your fans up to date on the latest news, blogs & events. Esportsify is the only platform you need - create your site in less than 2 minutes, it's free!
+    </p>
+
+    <ul class="get-started clearfix">
+    				<li>
+    					<span class="fa-user fa anim-01"></span>
+    					<h3>1. Sign up</h3>
+    					<p>It is incredibly easy to get your site set up and deployed, you'll be up and running in less than a minute!</p>
+    				</li>
+    				<li>
+    					<span class="fa-pencil fa anim-01"></span>
+    					<h3>2. Populate</h3>
+    					<p>Using our custom built CMS is child's play. Create and manage all your news, matches, squads and more.</p>
+    				</li>
+    				<li>
+    					<span class="fa-trophy fa anim-01"></span>
+    					<h3>3. Dominate</h3>
+    					<p>Now your site is all set up there is no excuse not to impress sponsors fans and attract great players.</p>
+    				</li>
+    			</ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </body>
 </html>
