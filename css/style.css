@@ -107,6 +107,7 @@ video#bgvid {
 
 .team-container h1 {
   margin-top: 200px;
+  margin-bottom: 45px;
   text-align: center;
   color: #fff;
   font-weight: 100;
@@ -120,25 +121,43 @@ video#bgvid {
 
 .the-team > li {
     float: left;
-    width: 30%:
-    margin-bottom: 40px!important;
-    background: none!important;
+    width: 30%;
+    margin-bottom: 40px;
+    background: none;
     list-style: none;
     padding: 0!important;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.the-team > ul {
+  text-align:center;
 }
 
 .the-team > li > img {
     float: left;
     width: 150px;
     height: 150px;
+    border: 2px solid;
+    border-color: #1c2135;
     border-radius: 200px;
     margin-right: 20px;
+}
+
+.the-team h2 {
+  padding: 48px 0 0 0;
+  margin: 0;
+  color: #fff;
+}
+
+.the-team h3 {
+  color: #fff;
+  margin: 0;
 }
 
 /* About Us Container */
 
 .about-container h1 {
-  margin-top: 200px;
   text-align: center;
   color: #fff;
   font-weight: 100;
