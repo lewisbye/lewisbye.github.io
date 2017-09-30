@@ -105,6 +105,14 @@ video#bgvid {
 
 /* the team */
 
+.team-container h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  font-size: 26px;
+}
+
 .team-container {
     max-width: 1240px;
     margin: 0 auto;
@@ -125,6 +133,11 @@ video#bgvid {
     height: 150px;
     border-radius: 200px;
     margin-right: 20px;
+}
+
+.the-team ul {
+  margin: 0 auto;
+  color: red;
 }
 
 /* About Us Container */
