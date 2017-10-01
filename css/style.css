@@ -131,6 +131,7 @@ video#bgvid {
     width: 100%;
     margin: 0 auto;
     background-color: #fff;
+    padding: 60px 0;
   }
 
 .the-team > li {
@@ -150,9 +151,9 @@ video#bgvid {
 
 .the-team > li > img {
     float: left;
-    width: 150px;
-    height: 150px;
-    border-radius: 200px;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
     margin-right: 20px;
 }
 
@@ -165,6 +166,13 @@ video#bgvid {
 .the-team h3 {
   color: #9da5b2;
   margin: 0;
+}
+
+.team-container p {
+  color: #979ec6;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 35px;
 }
 
 /* About Us Container */
@@ -184,6 +192,8 @@ video#bgvid {
 
 .about-container ul {
   display: inline-block;
+  margin-bottom: 48px;
+  margin-top: 48px;
 }
 
 .get-started li {
@@ -196,14 +206,17 @@ video#bgvid {
 .get-started li span {
     float: left;
     margin-right: 20px;
-    font-size: 80px;
-    color: #6d7c92;
+    font-size: 86px;
     opacity: .5;
+    color: rgba(255, 255, 255, 0.27);
+    padding-top: 17px;
 }
 
 .get-started li h3 {
     color: #c3cee1;
     font-size: 25px;
+    padding-bottom: 10px;
+    margin: 0px;
 }
 
 #get-started li p {
@@ -219,7 +232,8 @@ video#bgvid {
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  background-color: #171a1f;
+  background-color: rgba(23, 26, 31, 0.39);
+  padding: 60px 0;
 }
 
 .container {
