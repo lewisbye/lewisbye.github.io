@@ -1,7 +1,6 @@
 * {
   font-family: 'Proxima Nova', Georgia, sans-serif;
   list-style: none;
-  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -28,6 +27,17 @@ video#bgvid {
     background-size: cover;
     opacity: 0.2;
 }
+
+.splitter {
+    display: block;
+    width: 44px;
+    height: 6px;
+    border-radius: 10px;
+    background: #1ca3db;
+    margin: 20px auto;
+}
+
+
 
 /* Nav */
 
@@ -105,18 +115,22 @@ video#bgvid {
 
 /* the team */
 
+.the-team {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .team-container h1 {
-  margin-top: 200px;
-  margin-bottom: 45px;
   text-align: center;
-  color: #fff;
+  color: #171a1f;
   font-weight: 100;
   font-size: 26px;
 }
 
 .team-container {
-    max-width: 1240px;
+    width: 100%;
     margin: 0 auto;
+    background-color: #fff;
   }
 
 .the-team > li {
@@ -140,19 +154,16 @@ video#bgvid {
     height: 150px;
     border-radius: 200px;
     margin-right: 20px;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
 .the-team h2 {
   padding: 48px 0 0 0;
   margin: 0;
-  color: #fff;
+  color: #171a1f;
 }
 
 .the-team h3 {
-  color: #fff;
+  color: #9da5b2;
   margin: 0;
 }
 
@@ -168,7 +179,7 @@ video#bgvid {
 .about-container p {
   color: #979ec6;
   max-width: 1000px;
-  display: inline-block;
+  margin: 0 auto;
 }
 
 .about-container ul {
@@ -202,25 +213,9 @@ video#bgvid {
 
 /* ----- */
 
-/* anchor */
-
-.intro-anchor {
-    position: absolute;
-    top: -40px;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    opacity: 1;
-    background: url(../img/intro-anchor.png) center top no-repeat;
-    background-size: cover;
-    height: 40px;
-}
-
 /* layout containers */
 
 .about-container {
-  padding-right: 15px;
-  padding-left: 15px;
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -233,8 +228,6 @@ video#bgvid {
 }
 
 .intro-container {
-	padding-left: 1em;
-	padding-right: 1em;
   padding-top: 200px;
 }
 
@@ -247,7 +240,6 @@ video#bgvid {
 .main-header {
 	padding-top: 2.5em;
 	padding-bottom: 1.5em;
-	margin-bottom: 30px;
 }
 
 /* Intro */
