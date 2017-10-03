@@ -372,7 +372,7 @@ video#bgvid {
 /* footer */
 
 footer {
-    background: #1ca3db;
+    background-image: linear-gradient(to right, rgba(16,149,250,1) 0%, rgba(67,173,239,1) 100%);
     color: #fff;
     padding: 20px;
     overflow: hidden;
@@ -404,7 +404,7 @@ nav#footernav li a {
 
 footer p.copyright {
     float: left;
-    padding-top: 13px;
+    padding-top: 10px;
 }
 
 footer p {
