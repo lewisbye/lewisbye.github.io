@@ -371,8 +371,63 @@ video#bgvid {
 
 /* footer */
 
+footer {
+    background: #1ca3db;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    z-index: 1;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
 
+.footernav {
+  padding-bottom: 23px;
+    padding-top: 10px;
+}
 
+nav#footernav li a {
+    line-height: 20px;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    margin-left: 20px;
+}
+
+#footernav ul{
+  margin-top: 8px;
+}
+
+footer p.copyright {
+    float: left;
+    padding-top: 13px;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.inner {
+    max-width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav#footernav {
+    display: block;
+    float: right;
+    font-size: 13px;
+}
+
+nav#footernav li {
+    float: left;
+}
 
 /* Media query */
 
