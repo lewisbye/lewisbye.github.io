@@ -311,6 +311,10 @@ video#bgvid {
   background: #ebf1fa;
 }
 
+.features ul li {
+  text-align: left;
+}
+
 .features-header h3 {
   font-size: 16px;
   font-weight: 500;
@@ -340,15 +344,18 @@ video#bgvid {
 }
 
 #pricing-table .feature-list li {
-  line-height: 30px;
-  background: #ebf1fa;
-  margin-bottom: 1px;
-  text-align: center;
-  padding: 0;
-  font-size: 16px;
-  color: #6d7c92;
-  text-transform: none;
-  font-weight: 400;
+    line-height: 30px;
+    background: #ebf1fa;
+    margin-bottom: 1px;
+    padding: 0;
+    font-size: 16px;
+    color: #6d7c92;
+    text-transform: none;
+    font-weight: 400;
+}
+
+#pricing-table .free-package .feature-list li {
+  text-align:center
 }
 
 #pricing-table ul {
